@@ -112,3 +112,27 @@ This project is a backend system for a real-time leaderboard service that ranks 
    - Update the appsettings.json file with your SQL Server connection string under ConnectionStrings:DefaultConnection.
    - Configure Redis connection details under Redis in appsettings.json.
    - Set up JWT secrets under Jwt in appsettings.json.
+4. ** Execute the SQL script**
+   - execute the SQLquery4.sql against your database
+5. ## Running the Application
+   - To run the application, use the following command:
+   ```bash
+   dotnet run
+
+## Swagger API Documentation
+
+  You can access the Swagger UI for testing and exploring the API by navigating to:
+
+  [https://localhost:5001/swagger](https://localhost:5001/swagger)
+
+## Error Handling
+
+  The API uses the following HTTP status codes for error handling:
+
+  - **400 Bad Request**: Invalid request data.
+  - **401 Unauthorized**: Missing or invalid JWT token.
+  - **403 Forbidden**: Insufficient permissions to access the endpoint.
+  - **404 Not Found**: Resource not found.
+  - **500 Internal Server Error**: Server error.
+
+
