@@ -1,6 +1,5 @@
 # LeaderBoard API
-
-This project is a backend system for a real-time leaderboard service that ranks users based on their scores in various games or activities. The system provides user authentication, score submission, real-time leaderboard updates, and user rankings, using Redis sorted sets to efficiently manage and query the leaderboard.
+This project is a backend system for a real-time leaderboard service that ranks users based on their scores in various games or activities, built with RESTful APIs. The system provides user authentication, score submission, real-time leaderboard updates, and user rankings, using Redis sorted sets to efficiently manage and query the leaderboard.
 
 ## Features
 - **User Authentication**: Users can register and log in using JWT tokens for secure API access.
